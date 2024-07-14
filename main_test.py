@@ -41,7 +41,7 @@ def test_main_3():
 
 def test_main_4():
     num1 = [1, 3, 2]
-    num2 = [4, 1, 3, 2, 5]
+    num2 = [1, 1, 3, 2, 5]
     ret = main.isSubset(num1, num2)
     print(f'Your return value is {ret}')  # True
     assert ret == True
